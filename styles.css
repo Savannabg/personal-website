@@ -1,0 +1,87 @@
+body{
+    background-color:gainsboro;
+}
+
+.main{
+    display: flex;
+    position:relative;
+}
+
+.left{
+    margin:auto;
+}
+
+.left img{
+    height: 480px;
+    width: 440px;
+}
+
+.right{
+    margin: auto;
+    text-decoration: none;
+}
+
+.right h1{
+    font-size: 80px;
+    width: 60%;
+    font-family: sans-serif
+}
+
+.intro p{
+    font-size: 40px;
+    width: 80%;
+    font-family: sans-serif
+}
+
+.buttons{
+    display: flex;
+}
+
+.resumebutton{
+    background-color: black;
+    height: 50px;
+    width: 240px;
+    align-items: center;
+    display: flex;
+}
+
+.emailbutton{
+    background-color: black;
+    height: 50px;
+    width: 240px;
+    align-items: center;
+    display: flex;
+}
+
+.resumebutton a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+    display: flex;
+    margin: auto;
+    
+}
+
+.emailbutton a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+    display: flex;
+    margin: auto;
+    
+}
+
+
+.skills p{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skills li{
+    font-size: 30px;
+}
+.right{
+    background-color: gainsboro;
+}
